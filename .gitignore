@@ -1,0 +1,12 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# compiled backends (rebuild with `make` or `bash build_cpu_windows.sh`)
+*.so
+*.pyd
+build/
+
+# large downloaded datasets
+data/cifar-10-python.tar.gz
+data/cifar-10-batches-py/
